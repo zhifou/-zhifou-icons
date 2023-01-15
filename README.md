@@ -1,7 +1,7 @@
-# dream-doc
+# @zhifou/icons
 
-[![NPM version](https://img.shields.io/npm/v/dream-doc.svg?style=flat)](https://npmjs.org/package/dream-doc)
-[![NPM downloads](http://img.shields.io/npm/dm/dream-doc.svg?style=flat)](https://npmjs.org/package/dream-doc)
+[![NPM version](https://img.shields.io/npm/v/dream-doc.svg?style=flat)](https://npmjs.org/package/@zhifou/icons)
+[![NPM downloads](http://img.shields.io/npm/dm/dream-doc.svg?style=flat)](https://npmjs.org/package/@zhifou/icons)
 
 
 
@@ -17,22 +17,22 @@ TODO
 
 ```bash
 # install dependencies
-$ pnpm install
+$ npm install
 
 # develop library by docs demo
-$ pnpm start
+$ npm start
 
 # build library source code
-$ pnpm run build
+$ npm run build
 
 # build library source code in watch mode
-$ pnpm run build:watch
+$ npm run build:watch
 
 # build docs
-$ pnpm run docs:build
+$ npm run docs:build
 
 # check your project for potential problems
-$ pnpm run doctor
+$ npm run doctor
 ```
 
 ## LICENSE
