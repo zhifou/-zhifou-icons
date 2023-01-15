@@ -1,7 +1,7 @@
 # @zhifou/icons
 
-[![NPM version](https://img.shields.io/npm/v/dream-doc.svg?style=flat)](https://npmjs.org/package/@zhifou/icons?activeTab=versions)
-[![NPM downloads](http://img.shields.io/npm/dm/dream-doc.svg?style=flat)](https://npmjs.org/package/@zhifou/icons)
+[![NPM version](https://img.shields.io/npm/v/@zhifou/icons.svg?style=flat)](https://private.registry.com/@zhifou/icons)
+[![NPM downloads](http://img.shields.io/npm/dm/@zhifou/icons.svg?style=flat)](https://npmjs.org/package/@zhifou/icons)
 
 
 
