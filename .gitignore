@@ -1,4 +1,5 @@
 node_modules
+dist
 .dumi
 .husky
 yarn.lock

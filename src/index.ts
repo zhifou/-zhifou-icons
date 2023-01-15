@@ -1,1 +1,5 @@
-export { default as Foo } from './Foo';
+import IconWrapper from "./icons";
+
+export { DownOutlined, LeftOutlined, RightOutlined, UpOutlined } from "./icons";
+
+export default IconWrapper;

@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "dream-doc": ["src"],
-      "dream-doc/*": ["src/*", "*"]
+      "zhifou-icons": ["src"],
+      "zhifou-icons/*": ["src/*", "*"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
