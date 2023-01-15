@@ -11,7 +11,7 @@ import LeftOutlinedSvg from './outlined/LeftOutlined';
 import RightOutlinedSvg from './outlined/RightOutlined';
 import UpOutlinedSvg from './outlined/UpOutlined';
 
-import './style.less';
+import './index.less';
 
 export const ICON_LABELS: IKV = {
     LeftOutlined: 'left',
@@ -21,7 +21,7 @@ export const ICON_LABELS: IKV = {
 };
 
 // eslint-disable-next-line @typescript-eslint/member-delimiter-style
-const IconWrapper: FC<IconProps & { type?: string | any; children: any }> = ({
+const Icon: FC<IconProps & { type?: string | any; children: any }> = ({
     type,
     style,
     className = '',
@@ -46,29 +46,29 @@ const IconWrapper: FC<IconProps & { type?: string | any; children: any }> = ({
     );
 };
 
-export default IconWrapper;
+export default Icon;
 
 // Outlined图标的定义
 export const LeftOutlined = (props: IconProps) => (
-    <IconWrapper {...props} type="LeftOutlined">
+    <Icon {...props} type="LeftOutlined">
         <LeftOutlinedSvg />
-    </IconWrapper>
+    </Icon>
 );
 
 export const RightOutlined = (props: IconProps) => (
-    <IconWrapper {...props} type="RightOutlined">
+    <Icon {...props} type="RightOutlined">
         <RightOutlinedSvg />
-    </IconWrapper>
+    </Icon>
 );
 
 export const UpOutlined = (props: IconProps) => (
-    <IconWrapper {...props} type="UpOutlined">
+    <Icon {...props} type="UpOutlined">
         <UpOutlinedSvg />
-    </IconWrapper>
+    </Icon>
 );
 
 export const DownOutlined = (props: IconProps) => (
-    <IconWrapper {...props} type="DownOutlined">
+    <Icon {...props} type="DownOutlined">
         <DownOutlinedSvg />
-    </IconWrapper>
+    </Icon>
 );

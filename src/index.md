@@ -116,6 +116,3 @@ import React from 'react';
 export default () => <div></div>;
 ```
 
-## API 说明
-
-<API id="Icon"></API>
